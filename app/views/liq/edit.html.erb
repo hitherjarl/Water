@@ -1,0 +1,9 @@
+<h2>Edit Water</h2>
+
+<form action="/update_Water/<%= @Waters.id %>">
+  <input type="text" name="caption" placeholder="caption" value="<%= @Waters.caption %>">
+  <input type="text" name="name" placeholder="name" value="<%= @Waters.name %>">
+  <input type="text" name="url" placeholder="url" value="<%= @Waters.url %>">
+  <input type="text" name="user_id" placeholder="enter a user id" value="<%= @Waters.user_id %>">
+  <input type="submit">
+</form>
